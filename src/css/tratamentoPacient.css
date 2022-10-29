@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.header{
+    margin-top: 1.5%;
+    margin-left: 2%;
+    border-radius: 20px;
+    height: 15vh;
+    width: 95%;
+    background-color: #11B9C4;
+    display: flex;
+}
+
+.left-text-header{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: flex-end;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.top-left-header{
+    font-size: 1.2vw;
+    font-weight: 800;
+    color: #fff;
+    margin-bottom: -3.5%;
+}
+
+.bottom-left-header{
+    font-size: 1vw;
+    color: #fff;
+}
+
+.right-text-header{
+    width: 50%;
+    margin-right: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.right-text-header > img {
+    height: 8vh;
+    width: 8vw;
+}
+
+.right-text-header > p {
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1.4vw;
+    cursor: pointer;
+}
+
+.body{
+    width: 100%;
+}
+
+.card-header-body{
+    margin: 2%;
+    margin-left: 14%;
+    width: 70%;
+    padding: 35px 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.left-card{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-card > p {
+    font-size: 1.2vw;
+}
+
+.right-card{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-card > h1{
+    font-size: 1.8vw;
+    font-weight: 800;
+}
+
+.right-card > p{
+    font-size: 1.2vw;
+}
+
+.date{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-date{
+    font-size: 1.5vw;
+    text-transform: uppercase;
+}
+
+.buttons-date{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-date button {
+    font: 'Montserrat', sans-serif;
+    font-size: 1.15vw;
+    background-color: #FFFFFF;
+    border: 0.5px solid rgb(59, 59, 59);
+    width: 16vw;
+    height: 8vh;
+    margin-top: 5%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.trasitionButton{
+    transition: transform 1s;
+}
+
+.trasitionButton:hover{
+    transform: scale(1.1);
+}
+
+.information{
+    margin-top: 2.5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.button-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-left button{
+    font: 'Montserrat', sans-serif;
+    font-size: 1.15vw;
+    border: none;
+    background-color: #11B9C4;
+    width: 20vw;
+    height: 12vh;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.text-right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text-right textarea{
+    width: 80%;
+    height: 20vh;
+    border-radius: 10px;
+}
+
+.text-right textarea::placeholder{
+    font: 'Montserrat', sans-serif;
+    font-size: 1.4vw;
+}
+
+.observation{
+    margin-top: 2.5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.observation textarea{
+    width: 85%;
+    height: 25vh;
+    border-radius: 10px;
+}
+
+.observation textarea::placeholder{
+    font: 'Montserrat', sans-serif;
+    font-size: 1.4vw;
+}
+
+.buttons-confirm{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cancel{
+    font-size: 1.15vw;
+    background-color: #FFFFFF;
+    border: 0.5px solid rgb(59, 59, 59);
+    width: 16vw;
+    height: 8vh;
+    border-radius: 50px;
+    cursor: pointer;
+    font: 'Montserrat', sans-serif;
+}
+
+.confirm{
+    font-size: 1.15vw;
+    border: none;
+    background-color: #11B9C4;
+    width: 16vw;
+    height: 8vh;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #fff;
+    font: 'Montserrat', sans-serif;
+}
+
+
