@@ -8,11 +8,13 @@ import Login from './Telas/Login';
 import Agendamento from './Telas/Agendamento';
 import TratamentoPaciente from './Telas/TratamentoPaciente';
 import TratamentoMedico from './Telas/TratamentoMedico';
+import Filtro from './Telas/Filtro'
 
 const App = () => {
   return (
     <>
       <Routes>
+        <Route path='/busca' element={<><Filtro/></>}/>
         <Route path='/' element={<><HomeMain /></>} />
         <Route path='/nossos-servicos' element={<><SobreNos /></>} />
         <Route path='/cadastrese' element={<><CadastroMain /></>} />

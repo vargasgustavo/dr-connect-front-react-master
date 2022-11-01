@@ -19,8 +19,7 @@ const HomeMain = () => {
                             <li><a href="/">Home</a></li>
                             <li><a href="/nossos-servicos">Quem somos?</a></li>
                             <li><a href="/cadastrese">Cadastre-se</a></li>
-                            <li><a href="/login">Fazer Login</a></li>
-                            <li><a href='/agendamento'>Agendamento</a></li>
+                            <li><a href="/login">Fazer Login</a></li>   
                         </ul>
                     </nav>
                 </div>
@@ -47,7 +46,7 @@ const HomeMain = () => {
                         <input type="password" name="senha" placeholder="Escolha uma especialidade" />
                     </div>
                     <div className="card-button">
-                        <button className="btn-login trasitionButton">Buscar</button>
+                        <button className="btn-login trasitionButton" href="/busca" onClick={() => {}}>Buscar</button>
                     </div>
                 </div>
             </div>
